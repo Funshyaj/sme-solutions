@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sme-solutions/static/css/main.e53518e1.css",
+    "main.js": "/sme-solutions/static/js/main.4ff90463.js",
+    "static/media/investing-concept-illustration_114360-6492-removebg-preview.png": "/sme-solutions/static/media/investing-concept-illustration_114360-6492-removebg-preview.c4989938725276f9f6f8.png",
+    "static/media/investment-data-concept-illustration_114360-7373-removebg-preview.png": "/sme-solutions/static/media/investment-data-concept-illustration_114360-7373-removebg-preview.909fd6380524c0e2df4e.png",
+    "static/media/finance-concept-illustration_114360-2208-removebg-preview.png": "/sme-solutions/static/media/finance-concept-illustration_114360-2208-removebg-preview.7135421cc7e201b57b85.png",
+    "static/media/-removebg-preview.png": "/sme-solutions/static/media/cbbb0013af5b57b85910f4e02824ea59-removebg-preview.c70ee68f3e59ffde0bd9.png",
+    "static/media/down-arrow-svgrepo-com.svg": "/sme-solutions/static/media/down-arrow-svgrepo-com.f16dde91462ed4e46f57842a6db967d6.svg",
+    "index.html": "/sme-solutions/index.html",
+    "main.e53518e1.css.map": "/sme-solutions/static/css/main.e53518e1.css.map",
+    "main.4ff90463.js.map": "/sme-solutions/static/js/main.4ff90463.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e53518e1.css",
+    "static/js/main.4ff90463.js"
+  ]
+}
