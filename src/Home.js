@@ -45,7 +45,9 @@ const [color, setColor] = useState("")
             {/* welcome screen body*/}
 <div className="h-screen md:h-[90vh] px-5 p-10 flex flex-col gap-8 justify-start overflow-hidden relative" >
 <div className="flex flex-col justify-start pr-16 md:pr-80 lg:pr-[31rem] md:pl-10 md:pt-12 gap-3 z-[2]">
-    <h1 className="text-2xl text-[#0e0e52] font-semibold md:text-4xl">Welcome</h1>
+    <h1 className="text-4xl text-[#0e0e52] font-semibold md:text-6xl">
+        Take Your SME Business To The Next Level
+    </h1>
     <p className="text-base text-[#0e0e2d] leading-7 md:text-2xl md:leading-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi atque saepe deserunt perspiciatis dolorum illo recusandae, laudantium qui quidem dicta temporibus neque minus omnis reprehenderit, error eligendi quo est adipisci.</p>
 </div>
 <div className="absolute top-[45%] md:top-[15%] right-4 w-full z-[1]">
