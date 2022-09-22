@@ -23,6 +23,7 @@ module.exports = {
 
       backgroundImage: {
         'divider': 'linear-gradient(to left bottom, #fff 49%, #3943b7 50%)',
+        'logo': 'url(./assets/Logo-text1.png)',
       },
 
       screens: {

@@ -1,26 +1,27 @@
 import { useState } from "react";
+import logo1 from "./assets/Logo-text1.png"
+import logo from "./assets/Logo-text.png"
+
 
 const Navbar = (props) => {
  const [mobileMenuToggle, setMobileMenuToggle] = useState(false)
 const [servicesToggle, setServicesToggle] = useState(false)
 
-
-//<img src="./assets/head.png" alt="logo" />
 return ( 
 
 <div className=" ">
 
     {/* logo and navigation bar*/}
     <header className="shadow-3xl bg-[#3943b7] py-5 relative  top-0">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-end items-center relative">
             {/* logo*/}
-            <div className="ml-5"> <h2 className="font-[cursive] text-white text-2xl" >Sme Solutions</h2> </div>
+            <div className="ml-1 absolute left-[-30px] bottom-[1px] h-[72px]"><img src={logo1} alt="logo" className="w-[285px]"/> </div>
             {/* all navigations*/}
             <nav className="mr-5" >
-                {/* pc navigation bar*/}
+                {/* pc navigation bar*/}  
   <div id="pcNavMenu" className="hidden md:flex">
 
-    <ul className="flex lg:gap-16 md:gap-12 items-center  text-white">
+    <ul className="flex lg:gap-16 md:gap-12 items-center text-lg  text-white">
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="sme web p1.html">Register</a></li>
         <li><a href="sme web p2.html">Brand</a></li>
@@ -70,9 +71,10 @@ rounded-xl z-[9999] animate-slide">
     ${props.color === "white" ? "bg-white text-[#3943b7]" :"bg-[#3943b7] text-white"}
     
     `} >
-        <div className="flex justify-between items-center">
+        <div className="flex justify-end items-center relative">
             {/* logo*/}
-            <div className="ml-5"> <h2 className="font-[cursive] text-2xl">Sme Solutions</h2> </div>
+            <div className="ml-1 absolute left-[-30px] bottom-[1px] h-[72px]">
+      <img src={props.color === "white" ? logo : logo1} alt="logo" className="w-[285px]"/> </div>
             {/* all navigations*/}
             <nav className="mr-5" >
                 {/* pc navigation bar*/}
