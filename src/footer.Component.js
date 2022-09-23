@@ -1,5 +1,5 @@
 const Footer = () => {
-    return ( <footer className="bg-[#0e0e65] text-white px-4 pt-3 pb-2 relative bottom-0 left-0 right-0">
+    return ( <footer className="bg-[#0e0e65] text-white px-4 pt-3 pb-2 md:px-6 md:pt-5 relative bottom-0 left-0 right-0">
 
 <div className="footer-ctn">
     <div className="flex flex-wrap items-center">

@@ -30,7 +30,13 @@ module.exports = {
         'nl': '375px',
         'nxl': '425px',
     },
-  },
+
+    fontFamily: {
+      'head':  ['Roboto', "sans-serif"],
+        'body':['Quattrocento Sans', "sans-serif"],
+    },
+ 
+},
   plugins: [],
 }
 }
