@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family:'Quattrocento Sans',
-    sans-serif;
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,6 +13,13 @@ code {
 .clip{
   -webkit-clip-path: polygon(25% 58%, 52% 80%, 100% 100%, 0 100%, 0 18%);
 clip-path: polygon(25% 58%, 52% 80%, 100% 100%, 0 100%, 0 18%);}
+
+
+@font-face {
+  font-family: 'headFont';
+  src :local('headFont'), url(./fonts/Demo_Fonts/Fontspring-DEMO-capitana-bold.otf)
+  format('opentype');}
+
 
 @tailwind base;
 @tailwind components;

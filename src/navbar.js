@@ -1,6 +1,6 @@
 import { useState } from "react";
-import logo1 from "./assets/Logo-text1.png"
-import logo from "./assets/Logo-text.png"
+import logo from "./assets/sme logo.png"
+import logoAlt from "./assets/sme logo alt.png"
 
 
 const Navbar = (props) => {
@@ -12,30 +12,30 @@ return (
 <div className=" ">
 
     {/* logo and navigation bar*/}
-    <header className="shadow-3xl bg-[#3943b7] py-5 relative  top-0">
+    <header className=" bg-white py-5 relative  top-0">
         <div className="flex justify-end items-center relative">
             {/* logo*/}
-            <div className="ml-1 absolute left-[-30px] bottom-[1px] h-[72px]"><img src={logo1} alt="logo" className="w-[285px]"/> </div>
+            <div className="ml-1 absolute left-[-30px] bottom-[1px] h-[72px]"><img src={logo} alt="logo" className="w-[295px]"/> </div>
             {/* all navigations*/}
             <nav className="mr-5" >
                 {/* pc navigation bar*/}  
   <div id="pcNavMenu" className="hidden md:flex">
 
-    <ul className="flex lg:gap-16 md:gap-12 items-center text-lg  text-white">
+    <ul className="flex lg:gap-16 md:gap-8 items-center text-lg  text-[#0e0e52]">
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="sme web p1.html">Register</a></li>
         <li><a href="sme web p2.html">Brand</a></li>
         <li><a href="sme web p.html">About</a></li>
         <li><a href="Sign-up.html">Sign up</a></li>
-        <li className="bg-white rounded px-3 py-1 font-semibold text-center text-black"><a href="Sign-in.html">Login</a></li>
+        <li className="bg-[#3943b7] rounded px-3 py-1 shadow-xl text-center text-white"><a href="Sign-in.html">Login</a></li>
     </ul>
         
   </div>
 {/* mobile navigation bar button*/}
  <div className="md:hidden" onClick={()=> setMobileMenuToggle(!mobileMenuToggle)}>
-  <div className="h-1 w-7 bg-white my-1"></div>
-  <div className="h-1 w-5 bg-white my-1 ml-1"></div>
-  <div className="h-1 w-7 bg-white my-1"></div>
+  <div className="h-1 w-7 bg-[#3943b7] my-1"></div>
+  <div className="h-1 w-5 bg-[#3943b7] my-1 ml-1"></div>
+  <div className="h-1 w-7 bg-[#3943b7] my-1"></div>
 </div>
 
 {/* mobile navigation menu*/}
@@ -51,9 +51,9 @@ rounded-xl z-[9999] animate-slide">
         <div className="px-8 pt-5 pb-3 flex flex-col items-center gap-10 text-center">
         <a className="border-b-4   w-full text-xl font-light pb-2"   href="index.html">Home</a>
         <div className="border-b-4 w-full text-xl font-light pb-2 flex gap-5 justify-center"><span>Services</span>
-        <span onClick={()=> setServicesToggle(!servicesToggle)} >{servicesToggle ? "<" :">"}</span></div>
+        <span className="material-icons" onClick={()=> setServicesToggle(!servicesToggle)}>{servicesToggle ? "expand_less" :"expand_more"}</span></div>
 
-        <a className= {`border-b-4  w-full text-xl font-light pb-2 ${servicesToggle ? "block" :"hidden"}`} href="sme web p1.html">Register your business</a>
+        <a className= {`border-b-4  w-full text-xl font-light pb-2 ${servicesToggle ? "block" :"hidden"}`} href="sme web p1.html">Register youghvgcvr business</a>
         <a className= {`border-b-4  w-full text-xl font-light pb-2 ${servicesToggle ? "block" :"hidden"}`}   href="sme web p2.html">Brand your business</a>
         <a className="border-b-4  w-full text-xl font-light pb-2"   href="sme web p.html">About us</a>
         <a className="border-b-4  w-full text-xl font-light pb-2"   href="Sign-up.html">Sign up</a>
@@ -74,13 +74,13 @@ rounded-xl z-[9999] animate-slide">
         <div className="flex justify-end items-center relative">
             {/* logo*/}
             <div className="ml-1 absolute left-[-30px] bottom-[1px] h-[72px]">
-      <img src={props.color === "white" ? logo : logo1} alt="logo" className="w-[285px]"/> </div>
+      <img src={props.color === "white" ? logo : logoAlt} alt="logo" className="w-[285px]"/> </div>
             {/* all navigations*/}
             <nav className="mr-5" >
                 {/* pc navigation bar*/}
   <div id="pcNavMenu" className="hidden md:flex">
 
-    <ul className="flex lg:gap-16 md:gap-12 items-center ">
+    <ul className="flex lg:gap-16 md:gap-8 items-center ">
         <li><a className="" href="index.html">Home</a></li>
         <li><a href="sme web p1.html">Register</a></li>
         <li><a href="sme web p2.html">Brand</a></li>
@@ -113,7 +113,7 @@ rounded-xl z-[9999] animate-slide">
         <div className="px-8 pt-5 pb-3 flex flex-col items-center gap-10 text-center">
         <a className="border-b-4   w-full text-xl font-light pb-2"   href="index.html">Home</a>
         <div className="border-b-4 w-full text-xl font-light pb-2 flex gap-5 justify-center"><span>Services</span>
-        <span onClick={()=> setServicesToggle(!servicesToggle)} >{servicesToggle ? "<" :">"}</span></div>
+        <span className="material-icons" onClick={()=> setServicesToggle(!servicesToggle)}>{servicesToggle ? "expand_less" :"expand_more"}</span></div>
 
         <a className= {`border-b-4  w-full text-xl font-light pb-2 ${servicesToggle ? "block" :"hidden"}`} href="sme web p1.html">Register your business</a>
         <a className= {`border-b-4  w-full text-xl font-light pb-2 ${servicesToggle ? "block" :"hidden"}`}   href="sme web p2.html">Brand your business</a>

@@ -4,22 +4,22 @@ const Footer = () => {
 <div className="footer-ctn">
     <div className="flex flex-wrap items-center">
     <div className="grow w-[31rem] md:w-40" >
- <h3 className="text-3xl">SME SOLUTIONS</h3>
+ <h3 className="text-3xl font-head">SME SOLUTIONS</h3>
  <p>Sme solutions is dedicated to helping you start your business from ground up</p>
   </div>
 
 <div className="grow-[5] flex flex-col md:flex-row justify-between md:justify-evenly items-start gap-5 py-5">
   <div>
-<h5 className="text-2xl">Contact</h5>
+<h5 className="text-2xl font-head">Contact</h5>
 <ul>
-    <li><a href="">08078559693</a></li>
-    <li><a href="">08135530345</a></li>
+    <li><a href="">+2348078559693</a></li>
+    <li><a href="">+2348135530345</a></li>
     <li><a href="">Funshoajayi29@gmail.com</a></li>
 </ul>
 </div>
 
   <div>
-    <h5 className="text-2xl">Insight</h5>
+    <h5 className="text-2xl font-head">Insight</h5>
     <ul>
         <li><a href="">Blog</a></li>
         <li><a href="">Reaserch</a></li>
@@ -27,7 +27,7 @@ const Footer = () => {
   </div>
 
   <div>
-<h5 className="text-2xl">Company</h5>
+<h5 className="text-2xl font-head">Company</h5>
 <ul>
     <li><a href="">Services</a></li>
     <li><a href="">About</a></li>

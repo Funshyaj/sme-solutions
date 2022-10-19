@@ -27,13 +27,13 @@ module.exports = {
       },
 
       screens: {
-        'nl': '375px',
+        'nl': '360px',
         'nxl': '425px',
     },
 
     fontFamily: {
-      'head':  ['Roboto', "sans-serif"],
-        'body':['Quattrocento Sans', "sans-serif"],
+      'head':  ['headFont'],
+        'body':['Lato', 'sans-serif'],
     },
  
 },
