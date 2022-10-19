@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/sme-solutions/static/css/main.7a1a4743.css",
-    "main.js": "/sme-solutions/static/js/main.9795ab27.js",
+    "main.css": "/sme-solutions/static/css/main.e32e2f1d.css",
+    "main.js": "/sme-solutions/static/js/main.0ff7783c.js",
     "static/media/investing-concept-illustration_114360-6492-removebg-preview.png": "/sme-solutions/static/media/investing-concept-illustration_114360-6492-removebg-preview.c4989938725276f9f6f8.png",
-    "static/media/Logo-text.png": "/sme-solutions/static/media/Logo-text.a391548b5d0c2b68c824.png",
+    "static/media/sme logo.png": "/sme-solutions/static/media/sme logo.9820e68df6bdf9b8311b.png",
     "static/media/investment-data-concept-illustration_114360-7373-removebg-preview.png": "/sme-solutions/static/media/investment-data-concept-illustration_114360-7373-removebg-preview.909fd6380524c0e2df4e.png",
     "static/media/finance-concept-illustration_114360-2208-removebg-preview.png": "/sme-solutions/static/media/finance-concept-illustration_114360-2208-removebg-preview.7135421cc7e201b57b85.png",
-    "static/media/Logo-text1.png": "/sme-solutions/static/media/Logo-text1.49ec4c14a81c1e815916.png",
+    "static/media/sme logo alt.png": "/sme-solutions/static/media/sme logo alt.6b80ce1eb16a0cadd1d5.png",
     "static/media/-removebg-preview.png": "/sme-solutions/static/media/cbbb0013af5b57b85910f4e02824ea59-removebg-preview.c70ee68f3e59ffde0bd9.png",
+    "static/media/Fontspring-DEMO-capitana-bold.otf": "/sme-solutions/static/media/Fontspring-DEMO-capitana-bold.2d57d56dff26cca6525a.otf",
     "index.html": "/sme-solutions/index.html",
     "static/media/down-arrow-svgrepo-com.svg": "/sme-solutions/static/media/down-arrow-svgrepo-com.f16dde91462ed4e46f57842a6db967d6.svg",
-    "main.7a1a4743.css.map": "/sme-solutions/static/css/main.7a1a4743.css.map",
-    "main.9795ab27.js.map": "/sme-solutions/static/js/main.9795ab27.js.map"
+    "main.e32e2f1d.css.map": "/sme-solutions/static/css/main.e32e2f1d.css.map",
+    "main.0ff7783c.js.map": "/sme-solutions/static/js/main.0ff7783c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a1a4743.css",
-    "static/js/main.9795ab27.js"
+    "static/css/main.e32e2f1d.css",
+    "static/js/main.0ff7783c.js"
   ]
 }
