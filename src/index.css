@@ -20,6 +20,10 @@ clip-path: polygon(25% 58%, 52% 80%, 100% 100%, 0 100%, 0 18%);}
   src :local('headFont'), url(./fonts/Demo_Fonts/Fontspring-DEMO-capitana-bold.otf)
   format('opentype');}
 
+.input{
+  @apply grow-[5] flex flex-col md:flex-row justify-between md:justify-evenly items-start gap-5 py-5
+}
+
 
 @tailwind base;
 @tailwind components;

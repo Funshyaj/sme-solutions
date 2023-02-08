@@ -8,7 +8,7 @@ const Footer = () => {
  <p>Sme solutions is dedicated to helping you start your business from ground up</p>
   </div>
 
-<div className="grow-[5] flex flex-col md:flex-row justify-between md:justify-evenly items-start gap-5 py-5">
+<div className='input'>
   <div>
 <h5 className="text-2xl font-head">Contact</h5>
 <ul>
